@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 
+import Video from "../components/ui/Video";
 import Button from "../components/ui/Button";
 import Bytes from "../assets/videos/bytes.mp4";
 import Divider from "../components/ui/Divider";
@@ -32,14 +33,7 @@ export default function Hero() {
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
-        <div className="relative">
-          <div className="container">
-            <video className="w-full" autoPlay muted loop>
-              <source src={Bytes} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
+        <Video videoSrc={Bytes} />
       </div>
     </div>
   );

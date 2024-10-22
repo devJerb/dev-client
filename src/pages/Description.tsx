@@ -4,19 +4,13 @@ import {
   FilledCircledBox,
 } from "../components/shapes/boxes";
 import Nibbles from "../assets/videos/nibbles.mp4";
+import Video from "../components/ui/Video";
 
 const Description = () => {
   return (
     <div className="flex min-h-screen items-center justify-center p-4">
       <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 items-center">
-        <div className="relative">
-          <div className="container">
-            <video className="w-full" autoPlay muted loop>
-              <source src={Nibbles} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
+        <Video videoSrc={Nibbles} />
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-6xl bg-clip-text text-gray-900">
             Full Stack & LLMs
