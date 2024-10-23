@@ -70,7 +70,7 @@ export const projects = [
     description:
       "An image MPHB dataset annotator for computer vision to detect human poses.",
     image:
-      "https://blog.kakaocdn.net/dn/pIQOB/btqxbBQoQRj/vYh3zT1LaNY4TFSg4ESepK/img.jpg",
+      "https://s41305.pcdn.co/wp-content/uploads/2020/04/Appen-Data-Annotation-Services.jpg",
     category: "Deep Learning",
     technologies: ["Pillow", "Tkinter"],
     githubUrl: "https://github.com/devJerb/annotate",

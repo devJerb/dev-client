@@ -32,7 +32,7 @@ export default function Header({ className }: HeaderProps) {
 
   return (
     <header
-      className={`${className} sticky top-0 z-50 transition-all duration-200 font-mono ${
+      className={`${className} sticky top-0 z-100 transition-all duration-200 font-mono ${
         isScrolled
           ? "bg-background/80 backdrop-blur-md shadow-md"
           : "bg-background"
