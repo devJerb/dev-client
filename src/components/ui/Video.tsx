@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { Loader2 } from "lucide-react";
+import { LoaderPinwheel } from "lucide-react";
 
 export default function Video({ videoSrc = "" }) {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,7 +19,7 @@ export default function Video({ videoSrc = "" }) {
       <div className="container">
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center">
-            <Loader2 className="w-8 h-8 text-gray-500 animate-spin" />
+            <LoaderPinwheel className="w-8 h-8 text-gray-500 animate-spin" />
           </div>
         )}
         <video
