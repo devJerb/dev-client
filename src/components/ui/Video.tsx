@@ -19,7 +19,7 @@ export default function Video({ videoSrc = "" }) {
       <div className="container">
         {isLoading && (
           <div className="absolute inset-0 flex items-center justify-center">
-            <LoaderPinwheel className="w-8 h-8 text-gray-500 animate-spin" />
+            <LoaderPinwheel className="w-6 h-6 text-gray-900 animate-spin" />
           </div>
         )}
         <video
