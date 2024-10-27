@@ -1,8 +1,3 @@
-import {
-  CrossedBox,
-  PartialFilledCircledBox,
-  FilledCircledBox,
-} from "../components/shapes/boxes";
 import Nibbles from "../assets/videos/nibbles.mp4";
 import Video from "../components/ui/Video";
 
@@ -15,18 +10,13 @@ const Description = () => {
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-6xl bg-clip-text text-gray-900">
             Full Stack & LLMs
           </h1>
-          <div className="text-xl text-gray-900 font-mono space-y-6">
+          <div className="text-xl text-gray-900 space-y-6">
             <p>
               As an AI Engineer with a strong background in computer science, I
               specialize in developing and optimizing large language models for
               production environments, with a focus on enhancing performance and
               efficiency.
             </p>
-            <div className="flex space-x-2 ml-[-40px]">
-              <CrossedBox />
-              <PartialFilledCircledBox />
-              <FilledCircledBox />
-            </div>
             <p>
               My experience spans across implementing RAG pipelines, deploying
               machine learning models, and creating data processing workflows

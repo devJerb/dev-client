@@ -21,7 +21,7 @@ const components: JSX.Element[] = [
 // Function to get a random array of components
 const getRandomComponents = (): JSX.Element[] => {
   // Randomize the length between 1 and 10
-  const count = Math.floor(Math.random() * 10) + 5;
+  const count = Math.floor(Math.random() * 5) + 1;
 
   const randomComponents: JSX.Element[] = [];
   for (let i = 0; i < count; i++) {

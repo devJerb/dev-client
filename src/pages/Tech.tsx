@@ -16,14 +16,14 @@ export default function Tech() {
   const [activeSkill, setActiveSkill] = useState("full-stack");
 
   return (
-    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-6">
         <Divider />
         <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-5xl bg-clip-text text-gray-950">
           Field Expertise
         </h1>
-        <p className="text-xl text-gray-950 font-mono">
-          Accumulated theoretical and practical knowledge base.
+        <p className="text-xl text-gray-950">
+          Languages, frameworks, and tech stacks.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {Object.entries(skills).map(([key, skill]) => (
@@ -68,21 +68,6 @@ export default function Tech() {
                 </div>
               ))}
             </div>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-xl">Summary</CardTitle>
-          </CardHeader>
-          <CardContent className="font-sans">
-            {skills[activeSkill].detail}
-            <ul className="list-disc list-inside space-y-2 mt-3">
-              {skills[activeSkill].keypoints.map((keypoint, index) => (
-                <li key={index} className="text-gray-700">
-                  {keypoint}
-                </li>
-              ))}
-            </ul>
           </CardContent>
         </Card>
       </div>

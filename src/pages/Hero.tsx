@@ -21,7 +21,7 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-6xl bg-clip-text text-gray-900">
             CS Full Stack AI Engineer
           </h1>
-          <p className="text-xl text-gray-900 max-w-lg font-mono">
+          <p className="text-xl text-gray-900 max-w-lg">
             Bridging gaps between AI and full stack; scalable and intelligent
             solutions.
           </p>

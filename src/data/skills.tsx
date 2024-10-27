@@ -25,8 +25,6 @@ interface Skill {
   icon: JSX.Element;
   description: string;
   areas: Area[];
-  detail: string;
-  keypoints: string[];
 }
 
 export const skills: Record<string, Skill> = {
@@ -62,9 +60,6 @@ export const skills: Record<string, Skill> = {
         techs: ["OAuth", "JWT", "HTTPS", "Data Encryption"],
       },
     ],
-    detail:
-      "Proficiency in both front-end and back-end web development, with experience in modern JavaScript frameworks and server-side technologies. Implemented various web architectures and worked on optimizing web application performance, showcasing their ability to contribute to full-stack development keypoints.",
-    keypoints: ["Microservice", "Monolith", "Distributed"],
   },
   "deep-learning": {
     title: "Deep Learning",
@@ -93,9 +88,6 @@ export const skills: Record<string, Skill> = {
         techs: ["Legal", "Entertainment", "Music", "Agents"],
       },
     ],
-    detail:
-      "Implemented complex neural network architectures, including custom YOLOv7 models integrated with BoF and StrongSORT, achieving high mAP scores in object detection and tracking tasks.",
-    keypoints: ["Data Structures and Algorithms", "Exploratory Data Analysis"],
   },
   llms: {
     title: "Large Language Models",
@@ -124,8 +116,5 @@ export const skills: Record<string, Skill> = {
         techs: ["Model Serving", "API Integration", "Scalability"],
       },
     ],
-    detail:
-      "Hands-on experience in developing and optimizing production-grade LLM systems, demonstrating proficiency in processing high-volume queries and improving model performance.",
-    keypoints: ["Prompt Engineering", "Contextual Retrieval", "Task Queue"],
   },
 };

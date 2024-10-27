@@ -35,9 +35,6 @@ export default function Project() {
         <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-5xl bg-clip-text text-gray-950">
           Projects
         </h1>
-        <p className="text-xl text-gray-950 font-mono">
-          Accumulated theoretical and practical knowledge base.
-        </p>
         <div className="flex items-center gap-4 mb-8">
           <Filter className="w-5 h-5" />
           <div className="flex flex-wrap gap-2">
@@ -54,13 +51,13 @@ export default function Project() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredProjects.map((project) => (
-            <Card key={project.id} className="flex flex-col">
+          {filteredProjects.map((project, index) => (
+            <Card key={index} className="flex flex-col">
               <CardHeader>
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover rounded-t-lg"
+                  className="w-full h-48 object-cover rounded-t-lg grayscale-[80%] hover:grayscale-[40%] transition-all duration-300"
                 />
               </CardHeader>
               <CardContent className="flex-grow">
