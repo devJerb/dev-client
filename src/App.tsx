@@ -1,3 +1,4 @@
+import { displayUserDetails } from "./data/address";
 import { motion, AnimatePresence } from "framer-motion";
 import { Routes, Route, useLocation } from "react-router-dom";
 
@@ -30,6 +31,8 @@ const pageTransition = {
 
 const PageLayout = ({ children }: { children: React.ReactNode }) => {
   const location = useLocation();
+
+  displayUserDetails();
   return (
     <AnimatePresence mode="wait">
       <motion.div
@@ -50,11 +53,11 @@ const App = () => {
     <div className="bg-[#e0e0e0]">
       <PageLayout>
         <Header />
-          <Routes>
-            <Route path="/" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+        <Routes>
+          <Route path="/" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
         <Footer />
       </PageLayout>
     </div>
