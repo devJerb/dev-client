@@ -122,7 +122,7 @@ export const projects = [
     description: "Under construction.",
     image:
       "https://images.pexels.com/photos/211122/pexels-photo-211122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    category: "Large Language Models",
+    category: "Large Language Model",
     technologies: ["LangGraph", "MongoDB", "React", "FastAPI"],
     githubUrl: "https://github.com/devJerb",
     liveUrl: "",
