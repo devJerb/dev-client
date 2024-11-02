@@ -24,8 +24,8 @@ export default function Video({ videoSrc = "" }) {
         )}
         <video
           ref={videoRef}
-          className={`w-full h-full object-cover ${
-            isLoading ? "invisible" : "visible"
+          className={`w-full h-full object-cover transition-opacity duration-300 ${
+            isLoading ? "opacity-0" : "opacity-100"
           }`}
           muted
           loop
