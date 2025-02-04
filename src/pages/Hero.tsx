@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import Video from "../components/ui/Video";
 import Button from "../components/ui/Button";
 import Bytes from "../assets/videos/bytes.mp4";
-import Divider from "../components/ui/Divider";
+// import Divider from "../components/ui/Divider";
 
 export default function Hero() {
   const handleScrollToProjects = () => {
@@ -17,7 +17,7 @@ export default function Hero() {
     <div className="flex min-h-screen items-center justify-center p-4">
       <div className="max-w-4xl mx-auto grid gap-8 lg:grid-cols-2 items-center">
         <div className="space-y-6">
-          <Divider />
+          {/* <Divider /> */}
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-6xl bg-clip-text text-gray-900">
             CS Full Stack AI Engineer
           </h1>

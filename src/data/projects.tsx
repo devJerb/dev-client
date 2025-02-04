@@ -76,7 +76,7 @@ export const projects = [
     description:
       "An image MPHB dataset annotator for computer vision to detect human poses.",
     image:
-      "https://s41305.pcdn.co/wp-content/uploads/2020/04/Appen-Data-Annotation-Services.jpg",
+      "https://cdn.prod.website-files.com/614c82ed388d53640613982e/635b9f22088a3756ebb2c72c_6358e5ca0388f40ec0521a64_detecting-oranges.jpeg",
     category: "Deep Learning",
     technologies: ["Pillow", "Tkinter"],
     githubUrl: "https://github.com/devJerb/annotate",
@@ -88,7 +88,7 @@ export const projects = [
     description:
       "An object detection and tracker MOT using YOLO and StrongSORT state-of-the-art models for human poses.",
     image:
-      "https://github.com/bharath5673/StrongSORT-YOLO/blob/main/MOT16_eval/track_pedestrians.gif?raw=true",
+      "https://github.com/bharath5673/StrongSORT-YOLO/raw/main_v2/demo_yoloV8.gif",
     category: "Deep Learning",
     technologies: ["Torch", "Cython", "YOLO", "StrongSORT", "Onnx"],
     githubUrl: "https://github.com/devJerb/proctor-ai",

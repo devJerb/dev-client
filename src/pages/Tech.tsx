@@ -10,7 +10,7 @@ import { skills } from "../data/skills";
 import { Badge } from "../components/ui/Badge";
 
 import Button from "../components/ui/Button";
-import Divider from "../components/ui/Divider";
+// import Divider from "../components/ui/Divider";
 
 export default function Tech() {
   const [activeSkill, setActiveSkill] = useState("full-stack");
@@ -18,7 +18,7 @@ export default function Tech() {
   return (
     <div className="min-h-screen px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto space-y-6">
-        <Divider />
+        {/* <Divider /> */}
         <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-5xl bg-clip-text text-gray-950">
           Field Expertise
         </h1>
@@ -50,7 +50,7 @@ export default function Tech() {
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-5">
               {skills[activeSkill]?.areas.map((area, index) => (
                 <div key={index} className="border rounded-lg p-4 bg-gray-50">
                   {" "}

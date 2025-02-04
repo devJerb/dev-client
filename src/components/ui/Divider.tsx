@@ -43,7 +43,7 @@ const Divider: React.FC = () => {
     const shuffleComponents = () => {
       setRandomSequence(getRandomComponents());
 
-      const randomTime = Math.floor(Math.random() * 5000) + 1000;
+      const randomTime = Math.floor(Math.random() * 2000) + 1000;
       setTimeout(shuffleComponents, randomTime);
 
       return 0;

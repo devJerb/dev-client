@@ -91,7 +91,7 @@ export default function Contact() {
   return (
     <div className="container min-h-screen mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-2">Contact Me</h1>
-      <p className="text-center text-muted-foreground mb-8">
+      <p className="text-center text-gray-900 mb-8 text-xl">
         If any of these services potentially suffice your needs. Let's make your
         idea a non-convoluted reality.
       </p>
