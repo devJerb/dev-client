@@ -31,6 +31,8 @@ export default function Video({ videoSrc = "" }) {
           loop
           playsInline
           onLoadedData={handleVideoLoaded}
+          onContextMenu={(e) => e.preventDefault()}
+          controlsList="nodownload"
         >
           <source src={videoSrc} type="video/mp4" />
           Your browser does not support the video tag.
