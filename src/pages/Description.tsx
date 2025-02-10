@@ -1,11 +1,11 @@
-import Nibbles from "../assets/videos/nibbles.mp4";
+import Bytes from "../assets/videos/bytes.mp4";
 import Video from "../components/ui/Video";
 
 const Description = () => {
   return (
     <div className="flex min-h-screen items-center justify-center p-4">
       <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 items-center">
-        <Video videoSrc={Nibbles} />
+        <Video videoSrc={Bytes} />
         <div className="space-y-6">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tighter md:text-6xl bg-clip-text text-gray-900">
             Full Stack & LLMs
