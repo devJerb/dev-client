@@ -70,6 +70,40 @@ export default function Tech() {
             </div>
           </CardContent>
         </Card>
+
+        {/* New Creative Card */}
+        {/* <Card className="mb-12">
+          <CardHeader>
+            <CardTitle className="text-2xl flex items-center gap-2">
+              A Tapestry of Talents
+            </CardTitle>
+            <CardDescription>
+              From innovative problem-solving to creative design, my journey in tech has been a mosaic of diverse experiences.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {Object.entries(skills).map(([key, skill]) => (
+                <div
+                  key={key}
+                  className="border rounded-lg p-4 bg-gray-50 shadow-sm hover:shadow-md transition"
+                >
+                  <h3 className="text-xl font-semibold flex items-center gap-2 mb-2">
+                    {skill.icon} {skill.title}
+                  </h3>
+                  <p className="text-sm text-gray-700">{skill.description}</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {skill.areas.map((area, index) => (
+                      <Badge key={index} variant="secondary">
+                        {area.name}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card> */}
       </div>
     </div>
   );

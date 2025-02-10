@@ -2,7 +2,8 @@ import { ArrowRight } from "lucide-react";
 
 import Video from "../components/ui/Video";
 import Button from "../components/ui/Button";
-import Bytes from "../assets/videos/bytes.mp4";
+// import Bytes from "../assets/videos/bytes.mp4";
+import Nibbles from "../assets/videos/nibbles.mp4";
 // import Divider from "../components/ui/Divider";
 
 export default function Hero() {
@@ -33,7 +34,7 @@ export default function Hero() {
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
         </div>
-        <Video videoSrc={Bytes} />
+        <Video videoSrc={Nibbles} />
       </div>
     </div>
   );
